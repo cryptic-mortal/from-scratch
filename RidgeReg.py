@@ -3,7 +3,7 @@ import pandas as pd
 from LinearRegression import LinearRegression
 
 class RidgeRegression(LinearRegression) :
-    def __init__ (self, learning_rate = 0.1, iterations = 1000, verbose = True, lambda_ = 0.1):
+    def __init__ (self, learning_rate = 0.1, iterations = 1000, verbose = False, lambda_ = 0.1):
         super().__init__(learning_rate, iterations, verbose)
         self.lambda_ = lambda_
 

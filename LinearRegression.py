@@ -2,7 +2,7 @@ import numpy as np
 import pandas as pd
 
 class LinearRegression():
-    def __init__ (self, learning_rate = 0.1, iterations = 100, verbose = True):
+    def __init__ (self, learning_rate = 0.1, iterations = 100, verbose = False):
         self.learning_rate = learning_rate
         self.iterations = iterations
         self.verbose = verbose
