@@ -16,6 +16,8 @@
 - [Logistic Regression](#logistic-regression)
   - [Class Structure](#class-structure-3)
   - [Example Usage](#example-usage-3)
+- [Spectral Clustering](#spectral-clustering)
+- [Gaussian Process Regression](#gaussian-process-regression)
 - [Installation](#installation)
 - [To Do](#to-do)
 - [Credits](#credits)
@@ -175,6 +177,11 @@ print(f"Accuracy : {my_model.accuracy(y_pred, y_test)}")
 ```
 
 For more details, refer to the [Logistic Regression Implementation](BLR.ipynb).
+### Spectral Clustering
+All the details and documentation are available in the [LaTex file](SpectralClustering_&_GPR/SpectralClustering.pdf). The code is available in the [Spectral Clustering Implementation](SpectralClustering_&_GPR/SpectralClustering.ipynb).
+
+### Gaussian Process Regression
+All the details and documentation are available in the [LaTex file](SpectralClustering_&_GPR/GPR.pdf). The code is available in the [Gaussian Process Regression Implementation](SpectralClustering_&_GPR/Gaussian_Process_Regression.ipynb).
 ## Installation
 To use this project, clone the repository:
 ```bash
